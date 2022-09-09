@@ -1,0 +1,70 @@
+:root {
+  --Gray: #bababa;
+  --Black1: #414141;
+  --LightLightBlue: #E7EFF6;
+  --LightBlue: #54BBF4;
+  --Orange: #fdb230;
+  --Green: #55AD66;
+  --purple: #7382BF;
+}
+
+/*Pre Set*/
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.wrapper {
+  border: 1px solid red;
+  max-width: 320px;
+  padding-inline-start: 16px;
+  padding-inline-end: 16px;
+}
+
+/*CSS*/
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+}
+
+.presentation h2 {
+  text-align: center;
+  color: var(--Black1);
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.presentation img {
+  width: 200px;
+  margin: auto;
+}
+
+/*---FORM---*/
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-block-end: 16px;
+}
+
+.form-content label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: var(--Black1);
+}
+
+.input-login {
+  border: 1px solid var(--Gray);
+  border-radius: 12px;
+  padding-block: 16px;
+  padding-inline: 12px;
+}
+
+.input-login::placeholder {
+  color: var(--Gray);
+  font-weight: 300;
+}
