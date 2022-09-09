@@ -1,0 +1,18 @@
+.button {
+  width: 100%;
+  padding-block: 12px;
+  border-radius: 32px;
+  border: 1px solid var(--Black1);
+  background: var(--White);
+  color: var(--Black1);
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.button_primary {
+  background: var(--LightBlue);
+  color: var(--White);
+  border: none;
+}

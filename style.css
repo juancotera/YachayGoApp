@@ -1,3 +1,5 @@
+@import 'button.css';
+
 :root {
   --Gray: #bababa;
   --Black1: #414141;
@@ -6,6 +8,7 @@
   --Orange: #fdb230;
   --Green: #55AD66;
   --purple: #7382BF;
+  --White: #ffffff;
 }
 
 /*Pre Set*/
@@ -15,11 +18,15 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+h1, h2, p {
+  margin: 0;
+}
+
 .wrapper {
-  border: 1px solid red;
   max-width: 320px;
   padding-inline-start: 16px;
   padding-inline-end: 16px;
+  margin: auto;
 }
 
 /*CSS*/
@@ -27,13 +34,15 @@ body {
 .presentation {
   display: flex;
   flex-direction: column;
+  padding-block-start: 16px;
 }
 
 .presentation h2 {
   text-align: center;
   color: var(--Black1);
   font-weight: 400;
-  font-size: 24px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .presentation img {
@@ -42,6 +51,10 @@ body {
 }
 
 /*---FORM---*/
+
+.form {
+  padding-block: 16px;
+}
 
 .form-content {
   display: flex;
@@ -66,5 +79,73 @@ body {
 
 .input-login::placeholder {
   color: var(--Gray);
-  font-weight: 300;
+}
+
+/*MANTENER SESION Y RECUPERAR PASS*/
+
+.form-option {
+  display: flex;
+  justify-content: space-between;
+  margin-block-end: 16px;
+}
+
+.form-option label {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+}
+
+.form-option a {
+  font-size: 12px;
+  color: var(--LightBlue);
+  font-weight: 500;
+}
+
+/*SESION CON REDES SOCIALES*/
+
+.register {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.or-space {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  position: relative;
+}
+
+.or-space::before {
+  content: '';
+  width: 45%;
+  height: 1px;
+  display: inline-block;
+  background: var(--Gray);
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+}
+
+.or-space::after {
+  content: '';
+  width: 45%;
+  height: 1px;
+  display: inline-block;
+  background: var(--Gray);
+  position: absolute;
+  bottom: 50%;
+  right: 0rem;
+}
+
+.register p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.register p a {
+  color: var(--LightBlue);
+  text-decoration: none;
+  font-weight: 500;
 }
