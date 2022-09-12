@@ -108,6 +108,7 @@ h1, h2, p {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  padding-block-end: 16px;
 }
 
 .or-space {
