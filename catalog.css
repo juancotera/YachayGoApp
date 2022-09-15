@@ -1,0 +1,60 @@
+:root {
+  --Gray: #bababa;
+  --Black1: #414141;
+  --LightLightBlue: #E7EFF6;
+  --LightBlue: #54BBF4;
+  --Orange: #fdb230;
+  --Green: #55AD66;
+  --purple: #7382BF;
+  --White: #ffffff;
+}
+
+/*Pre Set*/
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 320px;
+  padding-inline-start: 16px;
+  padding-inline-end: 16px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+/*Profile*/
+.user-profile {
+  display: flex;
+  justify-content: space-between;
+  max-height: 100px;
+}
+
+.user-profile_content {
+  border: 1px solid green;
+}
+
+.user-profile_img {
+  border: 1px solid blue;
+  
+}
+
+.greeting {
+  font-weight: 200;
+  color: var(--Gray);
+  font-size: 20px;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.profile_img {
+  height: 100%;
+  border-radius: 50px;
+}
