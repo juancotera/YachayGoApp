@@ -248,3 +248,33 @@ a {
   font-size: 12px;
   color: var(--White)
 }
+
+/*MENU*/
+
+.menu {
+  position: fixed;
+  bottom: 0;
+  background: var(--White);
+  min-width: 320px;
+  border-radius: 16px 16px 0 0;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 16px;
+}
+
+.menu-container li {
+  color: var(--LightBlue);
+  font-size: 20px;
+}
+
+.menu-container li:hover {
+  background: var(--LightBlue);
+  color: var(--White);
+  padding: 8px;
+  border-radius: 4px;
+  transition: .5s;
+}
+
