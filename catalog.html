@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>replit</title>
+    <title>Catalogo</title>
     <link href="catalog.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./icon-Font/demo-files/demo.css">
+
   </head>
   <body>
     <div class="wrapper">
@@ -16,10 +18,91 @@
           <p class="greeting">Hello,</p>
           <h2 class="name">Juan Cotera <img src="./image/greeting.png" alt="greeting" width="25"></h2>
         </div>
-        <div class="user-profile_img">
-          <img class="profile_img" src="./image/img_profile.jpeg" alt="foto de perfil">
-        </div>
+        <img class="profile_img" src="./image/img_profile.jpeg" alt="foto de perfil" width="45px" height="45px">
       </div>
+
+      <main class="main">
+        <form action="" class="form-main">
+          <input type="text" placeholder="Buscar">
+          <li class="b-blue lnr lnr-menu"></li>
+        </form>
+
+        <div class="topics">
+          <h2>Cursos</h2>
+          <div class="topics-container">
+            <div class="topics_content">
+              <a href="#">
+                <li class="lnr lnr-layers b-blue"></li>
+                <span>Todos los cursos</span>
+              </a>
+              <a href="#">
+                <li class="lnr lnr-star b-purple"></li>
+                <span>Nuevos</span>
+              </a>
+            </div>
+            <div class="topics_content">
+              <a href="#">
+                <li class="lnr lnr-tag b-orange"></li>
+                <span>Populares</span>
+              </a>
+              <a href="#">
+                <li class="lnr lnr-home b-green"></li>
+                <span>Avanzados</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="lessons">
+          <div class="lessons-container">
+            <a href="./course.html" class="lessons_content b-blue">
+              <img src="./image/Image1.png" alt="" width="150">
+              <h3>hacer un Informe</h3>
+              <p>creado por Jose Obrero</p>
+              <div class="details">
+                <div class="files">
+                  <li class="b-white lnr lnr-file-empty"></li>
+                  <span>17 files</span>
+                </div>
+                <div class="time">
+                  <li class="b-white lnr lnr-clock"></li>
+                  <span>5 min</span>
+                </div>
+              </div>
+            </a>
+            <a href="./course.html" class="lessons_content b-orange">
+              <img src="./image/Image1.png" alt="" width="150">
+              <h3>Bases estadísticas</h3>
+              <p>creado por Jose Obrero</p>
+              <div class="details">
+                <div class="files">
+                  <li class="b-white lnr lnr-file-empty"></li>
+                  <span>17 files</span>
+                </div>
+                <div class="time">
+                  <li class="b-white lnr lnr-clock"></li>
+                  <span>5 min</span>
+                </div>
+              </div>
+            </a>
+            <a href="./course.html" class="lessons_content b-blue">
+              <img src="./image/Image1.png" alt="" width="150">
+              <h3>Infografía</h3>
+              <p>creado por Jose Obrero</p>
+              <div class="details">
+                <div class="files">
+                  <li class="b-white lnr lnr-file-empty"></li>
+                  <span>17 files</span>
+                </div>
+                <div class="time">
+                  <li class="b-white lnr lnr-clock"></li>
+                  <span>5 min</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </main>
     </div>
   </body>
 </html>
