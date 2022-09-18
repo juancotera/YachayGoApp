@@ -29,7 +29,7 @@ a {
 }
 
 .wrapper {
-  max-width: 320px;
+  min-width: 320px;
   margin: auto;
   background: var(--LightLightBlue);
   padding-block-end: 32px;
@@ -255,7 +255,7 @@ a {
   position: fixed;
   bottom: 0;
   background: var(--White);
-  min-width: 320px;
+  min-width: 100%;
   border-radius: 16px 16px 0 0;
 }
 
